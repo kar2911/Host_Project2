@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube clone</title>
+  </head>
+  <body>
+    <div class="style_header">
+      <header class="header">
+        <div class="logo">
+          Youtube
+          <img src="./images/youtube.png" width="30px" />
+        </div>
+        <div class="search_container">
+          <input type="text" id="search-bar" placeholder="search videos.." />
+          <button id="search_button">
+            <img src="./images/search.png" width="20px" />
+          </button>
+          <button id="microphone_button">
+            <img src="./images/microphone.png" width="15px" />
+          </button>
+        </div>
+        <div class="controls">
+          <button><img src="./images/video.png" width="20px" /></button>
+          <button><img src="./images/bell.png" width="20px" /></button>
+          <div class="profile-icon">
+            <img src="./images/man.png" width="30px" />
+          </div>
+        </div>
+      </header>
+      <div class="tags">
+        <div class="tag selected">All</div>
+        <div class="tag">Football</div>
+        <div class="tag">Sidemen</div>
+        <div class="tag">Cricket</div>
+        <div class="tag">Sketch Comedy</div>
+        <div class="tag">ASMR</div>
+        <div class="tag">Gaming</div>
+        <div class="tag">Live</div>
+        <div class="tag">Concerts</div>
+        <div class="tag">Music</div>
+        <div class="tag">Mixes</div>
+        <div class="tag">Kya bhaat hai</div>
+      </div>
+    </div>
+
+    <aside class="sidebar">
+      <div>
+        <ul>
+          <li>
+            <img src="./images/home.png" width="32px" />
+            <p>Home</p>
+          </li>
+          <li>
+            <img src="./images/youtube-shorts-logo-15253.png" width="32px" />
+            <p>Shorts</p>
+          </li>
+
+          <li>
+            <img src="./images/media-player.png" width="32px" /> Subscriptions
+          </li>
+          <li><img src="./images/music.png" width="32px" />Music</li>
+        </ul>
+      </div>
+      <div>
+        <div class="line_border"></div>
+        <ul>
+          <li>
+            <img src="./images/history.png" width="32px" />
+            <p>History</p>
+          </li>
+          <li>
+            <img src="./images/list-video.png" width="32px" />
+            <p>Playlists</p>
+          </li>
+
+          <li><img src="./images/youtube (1).png" width="32px" />Videos</li>
+          <li><img src="./images/lightbulb.png" width="32px" />Course</li>
+          <li><img src="./images/clock.png" width="32px" />Watchlist</li>
+          <li><img src="./images/thumbs-up.png" width="32px" />Favorites</li>
+          <li>
+            <img src="./images/arrow-down-to-line.png" width="32px" />Downloads
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div class="line_border"></div>
+        <ul>
+          <li>
+            <img src="./images/settings.png" width="32px" />
+            <p>Settings</p>
+          </li>
+          <li>
+            <img src="./images/circle-help.png" width="32px" />
+            <p>Help</p>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="content">
+      <div id="video-grid"></div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
